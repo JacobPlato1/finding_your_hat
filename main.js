@@ -125,14 +125,6 @@ class Field {
     }
 }
 
-/*const myField = new Field([
-    ['*', '░', 'O'],
-    ['░', 'O', '░'],
-    ['░', '^', '░'],
-]);*/
-
 const myField = new Field(Field.generateField(20, 20, 20));
-
-//myField.print();
 
 myField.playGame();
